@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Importando o Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body id="fundo">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(0, 0, 0);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo.png" width="70px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a style="color:#00FF43" class="nav-link active" href="#app">Apps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:#00FF43" class="nav-link active" href="#jogos">Jogos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:#00FF43" class="nav-link active" href="#Chatbot">Chatbot</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br><br><br>
+    <div class="altera-fontes">
+        <div class="container">
+            <section id="app">
+                <h1>Apps</h1>
+                <div class="line"></div>
+                <iframe width="392" height="620" style="border: 0px;"
+                    src="https://studio.code.org/projects/applab/7wyxO3nRGbYTWmPeWfbKNFrdjPb58D4MhcUpHrON4EI/embed"></iframe>
+                <iframe width="392" height="620" style="border: 0px;"
+                    src="https://studio.code.org/projects/applab/4uUsswmixXS6rsOfUjx5_1AoAjg9NgJ68XkrjXMzzIk/embed"></iframe>
+            </section>
+            <br><br>
+            <h2 id="jogos">Clique no jogo desejado para comecar!</h2>
+    
+            <h5>Esses jogos foram criados no laboratorio de jogos. Clique no jogo para jogar</h5>
+            <br><br>
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <!-- Pesca -->
+                        <a href="https://studio.code.org/projects/gamelab/7oALHGKORUkQBpaH0vKnBTmCQEJlTgzkesFjUNsp-as"
+                            target="_blank">
+                            <img src="pesca.png">
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <!-- Tortuga -->
+                        <a href="https://studio.code.org/projects/gamelab/EnV74e7OD4ry-9Sw3yXBv0LfKM81tIi5SrPiAyC14XY"
+                            target="_blank">
+                            <img src="tortuga.png">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Arte Floral-->
+                        <a href="https://studio.code.org/projects/applab/tplHM37K2eUcXCst-EljRVBpQpG1JILy088nNLOFXX8"
+                            target="_blank">
+                            <img src="arte.png">
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <!--Escola musical-->
+                        <a href="https://studio.code.org/projects/gamelab/rUs3WEucxNMu449eNK0QKKUsA1BQ5bEZV2MZr_9UKOY"
+                            target="_blank">
+                            <img src="musica.png">
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <!--Buraco Negro-->
+                        <a href="https://studio.code.org/projects/applab/gf35IuWeLhsAJuI80zjZKV8sN8b6eWPcHQlgJkD7lHQ"
+                            target="_blank">
+                            <img src="engolidor.png">
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                      <!--Corrida-->
+                      <a href="https://studio.code.org/projects/gamelab/CLOzqjGKFPERrtYIkmma5Ahm8kP23_tMrjwk3UbdZ0k"
+                          target="_blank">
+                          <img src="corrida.png">
+                      </a>
+                  </div>
+
+                  <div class="carousel-item">
+                    <!--Mago ruim-->
+                    <a href="https://studio.code.org/projects/playlab/Ud4KXLF5fhBgWIAtC2WWyrVWEB90bojdQn6aBFdSonk"
+                        target="_blank">
+                        <img src="passaro.png">
+                    </a>
+                </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+        </div>
+        <br><br>
+        <section id="Chatbot">
+            <h1>Chat Bot</h1>
+            <br><br>
+            <div class="line"></div>
+            <iframe width="350" height="430" allow="microphone;"
+                src="https://console.dialogflow.com/api-client/demo/embedded/09f5b500-5a0b-4996-a6ad-e0222e8a4035"></iframe>
+        </section>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>
